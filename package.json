@@ -1,0 +1,27 @@
+{
+  "name": "react-skelton-browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comsci46/react-skeleton-browserify.git"
+  },
+  "author": "comsci46",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/comsci46/react-skeleton-browserify/issues"
+  },
+  "homepage": "https://github.com/comsci46/react-skeleton-browserify#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "watchify": "^3.6.1"
+  }
+}
